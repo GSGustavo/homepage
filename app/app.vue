@@ -1,7 +1,10 @@
 <script lang="ts" setup>
-import ModeToggle from './components/ModeToggle.vue';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
-import { SquareTerminal } from 'lucide-vue-next';
+import Hero from '@/components/sections/hero/Hero.vue';
+import About from './components/sections/about/About.vue';
+import Techs from './components/sections/techs/Techs.vue';
+import Links from './components/sections/links/Links.vue';
+import Resume from './components/sections/resume/Resume.vue';
+import Footer from './components/sections/footer/Footer.vue';
 
 useHead({
   meta: [
@@ -15,7 +18,7 @@ useHead({
     lang: 'en'
   },
   bodyAttrs: {
-    class: 'h-[100vh]', // Add one or more classes
+    class: 'flex max-w-[700px] justify-center m-auto py-24', // Add one or more classes
   },
 })
 
@@ -29,23 +32,18 @@ useSeoMeta({
 
 
 <template>
-  <!-- <div>
-    <ModeToggle/>
-  </div>
-  
-  <Button>Click me</Button> -->
-
-
-  <div class="flex w-full align-center items-center justify-center">
-    <div class="flex flex-col gap-4 p-12 justify-center items-center">
-
-      <h1 class="scroll-m-20 text-center text-4xl font-bold tracking-tight text-balance">
-        Gustavo Gonzaga da Silva
-      </h1>
-      <Alert class="w-max">
-        <SquareTerminal/>
-        <AlertTitle>Software Developer</AlertTitle>
-      </Alert>
-    </div>
+  <div class="flex flex-col w-full align-center justify-center gap-12 m-12">
+    <!-- Hero -->
+    <Hero />
+    <!-- About -->
+    <About />
+    <!-- Techs -->
+    <Techs />
+    <!-- Links -->
+    <Links />
+    <!-- Resume -->
+    <Resume />
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>

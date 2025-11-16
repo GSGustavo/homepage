@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/color-mode'],
   app: {
     rootAttrs: {
-      class: "flex h-[100vh]",
+      class: "flex w-full",
     },
   },
   shadcn: {
