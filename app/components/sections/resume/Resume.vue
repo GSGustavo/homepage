@@ -9,7 +9,7 @@ const items = [
             {
                 el: PDFIcon,
                 description: "PDF Resume",
-                url: "https://drive.google.com/file/d/1R08xwKy_7LkABTPUaaaTXhO6kBkN2Yod/view?usp=sharing"
+                url: "https://docs.google.com/document/d/1en3kRuoTE2jZp74OCg-I5Ta-LEna-uHnC6S6SrGhVk8/edit?usp=sharing"
             },
         ]
     },
