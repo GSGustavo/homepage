@@ -35,6 +35,15 @@ const items = [
         </h2>
 
         <div class="flex flex-col gap-8">
+            <div class="flex flex-col gap-4">
+                <Badge variant="outline" class="text-sm font-bold flex gap-2">
+                    <CornerDownRight :size="15" />
+                    Send me a message!
+                </Badge>
+                <div class="flex gap-4 items-center">
+                    <a href="mailto:gustavogonzagasilva@outlook.com">gustavogonzagasilva@outlook.com</a>
+                </div>
+            </div>
             <div class="flex flex-col gap-4" v-for="item in items" :key="`${item.title}-el`">
                 <Badge variant="outline" class="text-sm font-bold flex gap-2">
                     <CornerDownRight :size="15" />

@@ -4,7 +4,7 @@
             About me
         </h2>
 
-        <div class="font-medium text-justify ">
+        <div class="font-medium">
             I am a professional passionate about technology and innovation, focused on developing solutions that drive
             the growth and efficiency of the projects I work on. I have an aptitude for understanding challenges,
             proposing improvements, and delivering results that exceed expectations. I constantly seek to improve my

@@ -8,6 +8,6 @@ import { Heart } from 'lucide-vue-next';
 
         <Heart color="red" :size="20" />
 
-        from Mirassol D'Oeste - MT (BR).
+        from Brazil.
     </div>
 </template>

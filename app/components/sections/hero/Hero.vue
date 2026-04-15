@@ -6,10 +6,12 @@ import { Badge } from '@/components/ui/badge'
 
 <template>
     <div class="flex flex-col gap-4 justify-center items-center">
-        <Badge variant="outline">
-            <BookOpenText />
-            Homepage
-        </Badge>
+        <NuxtLink to="/">
+            <Badge variant="outline">
+                <BookOpenText />
+                Homepage
+            </Badge>
+        </NuxtLink>
         <h1 class="scroll-m-20 text-center text-4xl font-bold tracking-tight text-balance">
             Gustavo Gonzaga da Silva
         </h1>

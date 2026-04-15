@@ -1,10 +1,5 @@
 <script lang="ts" setup>
-import Hero from '@/components/sections/hero/Hero.vue';
-import About from './components/sections/about/About.vue';
-import Techs from './components/sections/techs/Techs.vue';
-import Links from './components/sections/links/Links.vue';
-import Resume from './components/sections/resume/Resume.vue';
-import Footer from './components/sections/footer/Footer.vue';
+
 
 useHead({
   meta: [
@@ -32,18 +27,5 @@ useSeoMeta({
 
 
 <template>
-  <div class="flex flex-col w-full align-center justify-center gap-12 m-12">
-    <!-- Hero -->
-    <Hero />
-    <!-- About -->
-    <About />
-    <!-- Techs -->
-    <Techs />
-    <!-- Links -->
-    <Links />
-    <!-- Resume -->
-    <Resume />
-    <!-- Footer -->
-    <Footer />
-  </div>
+  <NuxtPage />
 </template>
