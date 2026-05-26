@@ -4,10 +4,10 @@ import { Heart } from 'lucide-vue-next';
 
 <template>
     <div class="flex text-sm m-auto gap-2">
-        Make with
+            Make with
 
-        <Heart color="red" :size="20" />
-
-        from Brazil.
+            <Heart color="red" :size="20" />
+            
+            from Brazil.
     </div>
 </template>
