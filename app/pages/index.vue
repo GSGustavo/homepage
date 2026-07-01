@@ -17,7 +17,7 @@ import Blog from '@/components/sections/blog/Blog.vue';
         <!-- About -->
         <About />
         <!-- Blog -->
-        <!-- <Blog /> -->
+        <Blog />
         <!-- Techs -->
         <Techs />
         <!-- Resume -->

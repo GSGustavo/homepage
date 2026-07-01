@@ -19,7 +19,7 @@ const { data: lastPosts } = await useAsyncData('posts', () =>
 
         <ul>
             <li v-for="post in lastPosts" :key="post.path" class="mb-3">
-                <NuxtLink :to="'blog/' + post.id">{{ post.title }}</NuxtLink>
+                <NuxtLink :to="'/blog/' + post.postId">{{ post.title }}</NuxtLink>
             </li>
         </ul>
     </div>
