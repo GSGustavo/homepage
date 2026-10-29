@@ -16,7 +16,7 @@ const items = [
             {
                 el: LinkedInIcon,
                 description: "linkedin.com/in/gustavo-gs",
-                url: "https://www.linkedin.com/in/gustavo-gs/"
+                url: "https://www.linkedin.com/in/gustavo-gonzaga-silva/"
             },
             {
                 el: YoutubeIcon,
