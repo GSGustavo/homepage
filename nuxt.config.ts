@@ -24,5 +24,15 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: ''
-  }
+  },
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: { default: 'github-light', dark: 'github-dark' },
+          langs: ['sql', 'yaml', 'bash', 'json', 'ts', 'js', 'vue', 'php', 'python', 'dockerfile', 'nginx'],
+        },
+      },
+    },
+  },
 })
