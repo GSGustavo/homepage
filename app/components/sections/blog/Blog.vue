@@ -1,6 +1,8 @@
 <script setup>
-const { data: lastPosts } = await useAsyncData('posts', () =>
-    queryCollection('posts').order('date', 'DESC').limit(3).all()
+import { BookOpenText } from 'lucide-vue-next'
+
+const { data: lastPosts } = await useAsyncData('home-latest-posts', () =>
+    queryCollection('posts').order('date', 'DESC').limit(5).all()
 )
 </script>
 
