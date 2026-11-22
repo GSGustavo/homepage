@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/blog', '/terms-of-service', '/privacy-policy'],
+    },
+  },
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/color-mode', '@nuxt/content'],
   app: {
     rootAttrs: {
