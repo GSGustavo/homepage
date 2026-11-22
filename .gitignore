@@ -22,3 +22,10 @@ logs
 .env
 .env.*
 !.env.example
+
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/*.tfvars
